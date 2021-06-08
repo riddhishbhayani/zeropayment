@@ -1,0 +1,22 @@
+{
+    "name": "level/module-zero",
+    "description": "Salesorder Custom",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Riddhish Bhayani",
+            "email": "riddhish04@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Level\\Zero\\": ""
+        }
+    }
+}
